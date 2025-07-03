@@ -1,0 +1,106 @@
+.line {
+	display: flex;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.indent {
+	border-right: 1px solid;
+	flex: 0 0 15px;
+	user-select: none;
+}
+
+.handle {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	flex: 0 0 15px;
+	background: green;
+	position: relative;
+	user-select: none;
+}
+
+.left {
+	position: relative;
+	width: 15px;
+	background: rgba(0, 0, 0, 0);
+	height: calc(100%);
+	margin: 0px;
+	top: 0px;
+	right: 17px;
+	position: absolute;
+	z-index: 1;
+	user-select: none;
+}
+
+.right {
+	position: relative;
+	width: 15px;
+	background: rgba(0, 0, 0, 0.0);
+	height: calc(100%);
+	margin: 0px;
+	top: 0px;
+	left: 16px;
+	position: absolute;
+	z-index: 1;
+	user-select: none;
+}
+
+.up {
+	position: relative;
+	width: 45px;
+	background: rgba(0, 0, 0, 0.0);
+	height: 15px;
+	margin: 0px;
+	top: -17px;
+	left: -15px;
+	position: absolute;
+	z-index: 1;
+	user-select: none;
+}
+
+.down {
+	position: relative;
+	width: 45px;
+	background: rgba(0, 0, 0, 0.0);
+	height: 15px;
+	margin: 0px;
+	bottom: -17px;
+	left: -15px;
+	position: absolute;
+	z-index: 1;
+	user-select: none;
+}
+
+.pair {
+	width: 100%;
+	margin-left: 3px;
+}
+
+.singleton {
+	width: 100%;
+	margin-left: 3px;
+}
+
+textarea {
+	width: 100%;
+	margin: 0;
+	color: blue;
+	user-select: none;
+}
+
+.text {
+	color: black;
+	user-select: none;
+}
+
+.error {
+	background: rgba(255, 0, 0, 0.2);
+}
+
+.hidden {
+	display: none;
+}
+
+button {
+	margin-top: 20px;
+}
